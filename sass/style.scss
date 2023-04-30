@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+
+.header {
+    background-image: url(https://images.pexels.com/photos/3652419/pexels-photo-3652419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 500px;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*Nagłowek kol 1*/
+
+.kol1 {
+    padding: 12px 0 0 100px;
+    color: gold;
+    font-style: italic;
+}
+.kol1 h3{
+    color: gold;
+}
+
+
+/*Nagłowek kol 2*/
+
+.navigation{
+    padding: 12px 30px 0 0;
+    text-align: right;
+}
+
+.navigation li{
+    display: inline-block;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white; 
+    padding: 0 10px;  
+}
+
+
+/*Nagłowek kol 3*/
+
+
+.kol3 {
+    height: 445px;   
+}
+
+.splash {
+    width: 100%;
+    text-align: center;   
+}
+
+.page-title {
+    color: white;
+    font-style: italic;
+}
+
+.page-subtitle {
+    color: white;
+}
+
+.btn {
+    color: white;
+}
+
+/*SERVICES*/
+
+.services-title {
+    padding: 100px 0 0 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.services-title-text {
+    text-align: center;
+    text-decoration: none;
+    color: grey; 
+    font-style: italic;
+    padding: 0 0 100px 0; 
+}
+.kolumna i{
+font-size: 50px; }
+
+.services-col {
+    text-align: center;
+}
+
+.services-subtitle {
+    text-decoration: none;
+    padding: 25px 0 0 0;
+    font-style: bold;
+}
+
+.services-subtitle-text {
+    text-decoration: none;
+    color: grey;
+}
+
+.services-col {
+    padding: 50px 0;
+}
+
+/*OUR PORTFOLIO*/
+
+.our-portfolio {
+    text-align: center;
+    background: rgb(242, 242, 242);
+}
+.row {
+    justify-content: center;}
+
+.our-portfolio a {
+    text-decoration: none;
+    color: grey; 
+    font-style: italic;
+    }
+
+/*FOOTER*/
+
+.footer{
+    margin: 30px auto;
+}
+
+.footer .kolumna {
+    margin: 0;
+}
+
+.footer a {
+    color: black;
+    font-size: 13px;
+    padding: 0 0 0 15px;
+}
+
+.media-link a {
+    padding: 0;
+}
+
+.media-link i {
+    padding: 2;
+    color: black;
+    font-size: 30px;
+}
+
